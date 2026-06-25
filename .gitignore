@@ -1,0 +1,17 @@
+# 绿联云/Go 编译与打包临时产物
+build_dir/
+rootfs_amd64/
+rootfs_arm64/
+
+# Go 二进制及依赖临时文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db

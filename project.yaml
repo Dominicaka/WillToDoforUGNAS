@@ -1,0 +1,37 @@
+spec_version: "2.0"
+app_id: "com.willstation.willtodo"
+version: "1.0.8"
+
+depend_fw_version: "1.0.0"
+support_arch:
+  - "amd64"
+  - "arm64"
+
+tag_types:
+  - "utility"
+
+# 🌟 明文注册你的专属 3177 隔离端口
+port: 3177
+
+# 🌟 核心：原生内嵌独立小视窗模式，直接在 NAS 客户端内部平铺绽放
+open_type: "inner"
+start_cmd: "willtodo_server"
+
+i18n:
+  zh-CN:
+    name: "Will ToDo"
+    author: "Dominicaka"
+    publisher: "Dominicaka"
+    description: "一款基于 Local-First（本地优先）哲学的极简离线待办事项与任务管理桌面应用。"
+  en-US:
+    name: "Will ToDo"
+    author: "Dominicaka"
+    publisher: "Dominicaka"
+    description: "A minimalist, local-first offline todo & task manager."
+
+license_agreement_link:
+  - "https://github.com/dominicaka/willtodoforugnas/blob/main/LICENSE"
+source_code_link:
+  - "https://github.com/dominicaka/willtodoforugnas"
+privacy_policy_link:
+  - "https://github.com/dominicaka/willtodoforugnas/blob/main/PRIVACY.md"
