@@ -1,4 +1,4 @@
-spec_version: "2.0"
+spec_version: "2.1"
 app_id: "com.willstation.willtodo"
 version: "1.0.8"
 
@@ -6,6 +6,9 @@ depend_fw_version: "1.0.0"
 support_arch:
   - "amd64"
   - "arm64"
+
+supports:
+  - pc
 
 tag_types:
   - "utility"
@@ -23,11 +26,13 @@ i18n:
     author: "Dominicaka"
     publisher: "Dominicaka"
     description: "一款极简、优雅且完全本地化的个人待办与专注流管理应用。Will ToDo 坚信工具应该服务于效率本身。应用采用完全离线沙盒架构，坚决拒绝功能臃肿、臃余广告及任何强制订阅——让您的待办管理回归最纯粹、最清爽的本质。愿它能成为您私有云效率流中的得力助手。"
+    publisher_link: https://github.com/dominicaka/willtodoforugnas
   en-US:
     name: "Will ToDo"
     author: "Dominicaka"
     publisher: "Dominicaka"
     description: "A minimalist, elegant, and fully localized personal ToDo and focus manager. Will ToDo firmly believes that tools should serve productivity itself. Powered by a 100% offline sandbox architecture, it rigorously rejects feature bloat, distracting ads, and any form of forced subscription—bringing your task management back to its purest, most refreshing essence. May it become the ultimate companion in your private cloud workflow."
+    publisher_link: https://github.com/dominicaka/willtodoforugnas
 
 license_agreement_link:
   - "https://github.com/dominicaka/willtodoforugnas/blob/main/LICENSE"
